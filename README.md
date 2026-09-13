@@ -6,6 +6,10 @@ Plan, install and check explicitly selected local Skill packages. This is an ins
 
 中文：核对固定来源并安装、复用指定 Skills，分别核验文件与依赖。 独立 Skill 文件包，不包含 Runtime、Studio、FFmpeg 或渲染浏览器。
 
+Product entry: [chengfeng-videocut](https://github.com/Agentchengfeng/chengfeng-videocut) owns the workbench, overall installation guide and suite version manifest. This repository owns the installation Skill method; the main Plugin references a fixed snapshot. The legacy [chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) preserves history and migration guidance, not a second new installer. No repositories are being merged.
+
+中文分工：主仓管产品与组合清单；本仓管唯一安装方法；旧仓只做迁移指引。
+
 ## Quick Start
 
 Source preview **0.1.0-beta.1**. Requires Node.js 18+, npm, Git and access to GitHub. These commands install Skill files only; they do not install or start a workbench. Review the package before executing it.
