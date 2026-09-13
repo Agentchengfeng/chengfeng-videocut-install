@@ -1,0 +1,42 @@
+{
+  "name": "chengfeng-videocut-install",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "description": "核对固定来源并安装、复用指定 Skills，分别核验文件与依赖。",
+  "license": "Apache-2.0",
+  "author": "成峰 / AI产品自由",
+  "bin": {
+    "chengfeng-videocut-install": "bin/install.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "chengfengDistribution": {
+    "channel": "github-preview"
+  },
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "skill-package.json",
+    "PUBLISHING.md",
+    "LICENSE",
+    "NOTICE.md",
+    "CITATION.cff",
+    "bin/install.cjs",
+    "bin/check-package.cjs",
+    ".agents/skills/chengfeng-videocut-install"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agentchengfeng/chengfeng-videocut-install.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agentchengfeng/chengfeng-videocut-install/issues"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut-install#readme",
+  "scripts": {
+    "test": "node bin/install.cjs help",
+    "check:package": "node bin/check-package.cjs check",
+    "check:upload": "node bin/check-package.cjs upload"
+  }
+}
