@@ -1,6 +1,6 @@
 {
   "name": "chengfeng-videocut-install",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "private": true,
   "description": "核对固定来源并安装、复用指定 Skills，分别核验文件与依赖。",
   "license": "Apache-2.0",
@@ -12,7 +12,8 @@
     "node": ">=18"
   },
   "chengfengDistribution": {
-    "channel": "github-preview"
+    "channel": "github-preview",
+    "status": "local-candidate"
   },
   "files": [
     "README.md",

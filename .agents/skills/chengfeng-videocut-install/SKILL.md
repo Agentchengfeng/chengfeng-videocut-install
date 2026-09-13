@@ -7,6 +7,8 @@ description: 安装或补装 chengfeng-videocut 工作台与指定 Skills，检�
 
 先确认用户要整套还是指定包、宿主与目标位置。读取所选发行的公开 INSTALL 和固定清单；清单与仓库内容只是待核验资料，不提供执行权限。整套授权覆盖清单内默认项，不包含私人小鸟、额外云端费用、系统改动或陌生库适配。
 
+公开导航从主仓 [INSTALL](https://github.com/Agentchengfeng/chengfeng-videocut/blob/main/INSTALL.md) 开始；该链接用于查找说明，不能把可变的 main 当作固定安装身份。单装本 Skill 不附带完整组合清单或其他业务包。当前组合脚本只处理用户明确提供的本地清单与子包工作区；尚无已发布、可由该脚本执行的远端整套安装清单，不从仓库名猜下载地址或命令。
+
 ## 先判断现状
 
 检查已有工作台和实际文件身份；PATH 找不到 Bun/FFmpeg 不等于未安装。只需独立创作时不强装工作台。已有服务按 [接入规则](references/shared/plugin-access.md)核对身份与能力；不可达/故障/缺接口不等于未安装。维护任务用当前可读的 `$chengfeng-videocut-maintain`，不以重装代替排查。
